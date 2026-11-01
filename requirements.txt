@@ -1,0 +1,17 @@
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.3
+statsmodels>=0.14
+torch>=2.2
+pgmpy>=1.0
+SALib>=1.4
+prophet>=1.1
+openpyxl>=3.1
+matplotlib>=3.8
+networkx>=3.2
+geopandas>=0.14,<1.0    # bundled Natural Earth layer for the location map
+# optional foundation-model baselines (need access to huggingface.co / hf.co)
+chronos-forecasting>=2.0
+timesfm>=2.0
+momentfm>=0.1.4         # install with --no-deps (pins an old numpy)
